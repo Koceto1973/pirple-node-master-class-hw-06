@@ -1,0 +1,93 @@
+{
+	"info": {
+		"_postman_id": "aedf7f97-c8dd-4b4f-94b8-6c5f4a1d839c",
+		"name": "Uptime Monitor API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "HTTP ping",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{url.http}}/ping",
+					"host": [
+						"{{url.http}}"
+					],
+					"path": [
+						"ping"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "HTTPS ping",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{url.https}}/ping",
+					"host": [
+						"{{url.https}}"
+					],
+					"path": [
+						"ping"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "HTTPS hello",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{url.https}}/hello",
+					"host": [
+						"{{url.https}}"
+					],
+					"path": [
+						"hello"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "HTTP undefined",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{url.http}}/pinguin",
+					"host": [
+						"{{url.http}}"
+					],
+					"path": [
+						"pinguin"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
